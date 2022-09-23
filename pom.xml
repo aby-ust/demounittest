@@ -15,6 +15,12 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>8</java.version>
+		<sonar.host.url>http://18.205.192.27:9000/</sonar.host.url>
+		<project.test.result.directory>${project.build.directory}/test-results</project.test.result.directory>
+        	<sonar.login>admin</sonar.login>
+        	<sonar.password>qwerty</sonar.password>
+        	<sonar.projectBaseDir>/home/ubuntu/sonar</sonar.projectBaseDir>
+		<sonar.java.binaries>target</sonar.java.binaries>
 	</properties>
 	<dependencies>
 		<dependency>
