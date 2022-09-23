@@ -21,7 +21,7 @@
         	<project.test.result.directory>${project.build.directory}/test-results</project.test.result.directory>
         	<sonar.host.url>http://18.205.192.27:9000/</sonar.host.url>
         	<sonar.login>admin</sonar.login>
-        	<sonar.password>admin</sonar.password>
+        	<sonar.password>qwerty</sonar.password>
 		<sonar.exclusions>src/test/java/**/*.java</sonar.exclusions>
         	<!--<sonar.projectBaseDir>/home/ubuntu/sonar</sonar.projectBaseDir>-->
 	</properties>
